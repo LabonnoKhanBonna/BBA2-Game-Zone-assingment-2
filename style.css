@@ -144,6 +144,30 @@ color: red;
     width: 220px;
 
 }
+.card{
+    position: relative;
+}
+.hov:hover{
+        filter: brightness(70%); 
+    
+}
+.hov-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #F948B2;
+    font-size: larger;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out; 
+  }
+.card:hover .hov-text{
+    opacity: 1;
+
+}
 .fun{
     font-size: 35px;
 }

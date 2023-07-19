@@ -271,6 +271,31 @@ width:50%;
     text-align: right;
 }
 
+/* logo button part */
+.logo-btn{
+    padding: 10px 20px;
+    border-radius: 35px;
+    text-align: center;
+    justify-content: center;
+    border: none;
+    background-color: gainsboro;
+}
+.logo-btn:hover {
+    border: 2px solid #F948B2 ;
+    background-color: white;
+  }
+
+.logo-button{
+     padding-top: 50px;
+    background-color: gainsboro;
+}
+.logo-bttn{
+    display: grid;
+    justify-content: center; 
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    gap: 20px;
+}
 
 
 

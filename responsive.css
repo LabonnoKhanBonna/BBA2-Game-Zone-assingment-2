@@ -56,5 +56,11 @@
     .img7{
         width: 100vw;
     }
+    .logo-bttn{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: repeat(3,1fr);
+    }
    
 }

@@ -62,5 +62,20 @@
         align-items: center;
         grid-template-columns: repeat(3,1fr);
     }
-   
+    .footer-ul{
+        padding-top: 30px;
+       padding-left: 20vw;
+       padding-right: 20vw;
+        display: grid;
+        font-size: 10px;
+        grid-template-columns: repeat(3,1fr);
+      
+    }  
+    .footer-text{
+       padding-left: 20vw;
+       display: grid;
+       justify-content: center;
+       grid-template-columns: repeat(2,1fr);
+       gap: 20px;
+    }
 }

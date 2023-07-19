@@ -126,6 +126,10 @@ width:50%;
 .img2{
    width: 50vw;
 }
+.fa-youtube{
+    margin-left: 5px;
+color: red;
+}
 
 /* cards section */
 
@@ -297,6 +301,39 @@ width:50%;
     gap: 20px;
 }
 
-
+/* footer part */
+.foot{
+    background-color: #0B0223;
+    color: white;
+}
+.gamer2{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    align-items: center;
+    padding-top: 40px;
+}
+.footer-ul{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10vw;
+}
+.foot-logo{
+    margin-top: 20px;
+    display: flex;
+ justify-content: center;
+ gap: 20px;
+}
+.footer-text ,.fp{
+    margin-top: 20px;
+    font-family:'Open Sans', sans-serif ;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    color: gray;
+   padding-bottom: 30px;
+}
 
  

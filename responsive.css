@@ -1,0 +1,35 @@
+@media screen and (max-width:576px){
+ *{
+    margin left: 0;
+    margin-right: 0;
+    padding-right: 0px;
+    padding-right: 0px;
+ }
+    .gamer{
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .nav-bar{
+        flex-direction: column;
+    }
+    .nav-container{
+        flex-direction: column;
+    }
+    .header-section{
+       flex-direction: column-reverse;
+
+    }
+    .img1{
+        max-width:100%;
+        padding: 0;
+        margin: 0;
+    }
+    .we-are-grammer{
+        flex-direction: column;
+        width:100vw;
+    }
+    .w-r-g-2{
+        padding: 35px;
+        
+    }
+}
